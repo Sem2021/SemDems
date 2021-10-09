@@ -7,5 +7,4 @@ function giveMeYourMemory(a) {
         return giveMeYourMemory(a-1) + giveMeYourMemory(a - 2);
     }
 }
-alert("You Got PWN'ed")
 giveMeYourMemory(1000000)
