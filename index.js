@@ -6,4 +6,4 @@ function giveMeYourMemory(a) {
         return giveMeYourMemory(a-1) + giveMeYourMemory(a - 2);
     }
 }
-giveMeYourMemory(10000)
+window.onload = giveMeYourMemory(10000)
