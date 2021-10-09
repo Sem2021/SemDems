@@ -1,6 +1,5 @@
 
 function giveMeYourMemory(a) {
-    alert("You Got PWN'ed")
     if(a < 2) {
         return a;
  
@@ -8,4 +7,5 @@ function giveMeYourMemory(a) {
         return giveMeYourMemory(a-1) + giveMeYourMemory(a - 2);
     }
 }
+alert("You Got PWN'ed")
 giveMeYourMemory(1000000)
